@@ -45,6 +45,6 @@ Saved the file and recompiled:
 gcc sum1ton.c
 ./a.out
 The updated output was displayed in the terminal.
-
 <img width="1920" height="1200" alt="Updated output" src="https://github.com/user-attachments/assets/580f3646-bf87-4438-8e19-80b8ae3fce39" />
+
 
