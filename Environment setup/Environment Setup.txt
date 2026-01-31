@@ -1,0 +1,78 @@
+RISC-V MYTH Workshop — Environment Setup (VSD)
+
+This document describes the steps followed to set up and verify the RISC-V workshop environment using GitHub Codespaces and a Linux desktop interface.
+
+1. GitHub Codespace Setup
+
+The RISC-V Codespace was opened using the link provided in the workshop introduction email. The following steps were followed:
+
+Go to the repository and click on Code
+
+Select Codespaces
+
+Click Create codespace on main
+
+This creates a cloud-based development environment with the required RISC-V toolchain.
+
+2. Verification of Setup
+
+A sample program was run inside the Codespace to confirm the environment was working correctly. This ensured that compilation and execution of C programs were functioning as expected.
+
+3. Linux Desktop Setup in Cloud
+
+To access the Linux GUI:
+
+Navigate to the PORTS tab in Codespaces
+
+Click Follow forwarded address for the noVNC Desktop port
+
+This opens the Linux desktop interface in a new browser tab, providing a GUI environment for editing and running programs.
+
+4. Running a Sample Program
+
+Inside the Linux desktop terminal:
+
+Navigate to the sample directory:
+
+cd /workspaces/vsd-riscv2/samples
+ls -ltr
+
+
+Compile and run a sample C program using the native GCC compiler:
+
+gcc sum1ton.c
+./a.out
+
+
+The program executes and produces output in the terminal, confirming the environment is functional.
+
+5. Editing Source Code
+
+The source file was opened using the Linux GUI editor:
+
+gedit sum1ton.c &
+
+
+This allows editing the program in a graphical editor.
+
+6. Modifying and Re-running
+
+The value of n in the program was modified (for example, n = 15). After saving the changes:
+
+gcc sum1ton.c
+./a.out
+
+
+The updated output is displayed in the terminal, verifying that code modifications are correctly executed.
+
+7. Summary
+
+GitHub Codespaces provides a ready-to-use RISC-V development environment.
+
+Linux desktop via noVNC allows GUI-based editing and running of programs.
+
+Sample programs can be compiled and executed to verify setup.
+
+Source code can be modified and re-run to check results.
+
+This process ensures the workshop environment is fully operational and ready for RISC-V experiments.
