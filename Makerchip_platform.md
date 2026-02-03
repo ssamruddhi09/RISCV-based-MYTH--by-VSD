@@ -105,12 +105,14 @@ Operator: The && symbol represents the Boolean AND operator.
 
 <img width="1917" height="978" alt="and" src="https://github.com/user-attachments/assets/d4201aee-5006-4f07-9b7b-da8d7b068e79" />
 ---
+
 ### 2. Inverter 
 Logic: Reverses the input signal. If the input is 1, the output is 0, and vice versa.
 
 TLV Code: $out = ! $in1;
 
-Constraint: Ensure you use exactly 3 spaces for indentation and avoid using tabs.
+
+Operator: The ! symbol represents the Boolean NOT operator.
 <img width="1896" height="918" alt="inverter" src="https://github.com/user-attachments/assets/c178a940-c3e0-4311-9da6-e44c1e094bf8" />
 ---
 ### 3. OR Gate
@@ -132,6 +134,7 @@ Operator: The ^ symbol represents the Boolean XOR operator.
 
 Description:
 The screenshot above shows the Makerchip IDE navigation menu. The “Examples” option is highlighted in red to indicate where users can access predefined Verilog/TL-Verilog example projects. This section is useful for exploring sample designs, learning syntax, and understanding how different components work in the Makerchip environment. Selecting Examples opens a list of ready-to-run projects that can be used for hands-on practice and experimentation.
+
 
 
 
