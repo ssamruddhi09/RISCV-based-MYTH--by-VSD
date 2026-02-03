@@ -210,7 +210,7 @@ Division includes protection against divide-by-zero errors.
 
 ---
 
-### 🔹 Multiplexer (MUX)
+###  Multiplexer (MUX)
 
 A multiplexer selects the final output based on the `sel` signal.
 
@@ -245,8 +245,11 @@ A multiplexer selects the final output based on the `sel` signal.
    *failed = 1'b0;
 
 \SV
+
 endmodule
+
 ---
+
 ### TL-Verilog Implementation & Waveform Verification
 
 <img width="1917" height="957" alt="lab solution" src="https://github.com/user-attachments/assets/11c05137-465a-422f-9b39-ee1529fac7a7" />
@@ -267,13 +270,13 @@ endmodule
 - Implementation of logic using TL-Verilog  
 - Simulation-based verification of circuits  
 - Performing arithmetic operations using vectors
--  
 
 ---
 
 ## Conclusion
 
 These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers, and Vector arithmetic using the Makerchip simulation environment.
+
 
 
 
