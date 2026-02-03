@@ -90,7 +90,32 @@ $out = $sel ? $in1 : $in2
 - Waveform confirms correct logical behavior  
 
 ---
+### Modifying Multiplexer to Operate on 8-bit Vectors
 
+#### Objective
+To extend the basic 2:1 multiplexer design so that it selects between two 8-bit input vectors using a single select signal.
+
+#### TL-Verilog Implementation
+$out[7:0] = $sel ? $in1[7:0] : $in2[7:0];
+
+### Implementation Screenshot
+<img width="1919" height="970" alt="modifying_mux_code" src="https://github.com/user-attachments/assets/43e59785-d234-4072-afeb-aa5156a027fa" />
+
+### Code Explanation
+
+$out[7:0] represents an 8-bit output bus
+
+$in1[7:0] and $in2[7:0] are 8-bit input buses
+
+$sel is the select signal controlling which input vector is routed to the output
+
+### Working:
+
+If $sel = 1, output follows $in1
+
+If $sel = 0, output follows $in2
+
+---
 ## 3. Vector Operations Lab
 
 ### Objective
@@ -154,6 +179,7 @@ This produces a 5-bit output from two 4-bit inputs.
 ## Conclusion
 
 These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers, and Vector arithmetic using the Makerchip simulation environment.
+
 
 
 
