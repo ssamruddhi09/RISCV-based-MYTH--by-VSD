@@ -216,47 +216,13 @@ A multiplexer selects the final output based on the `sel` signal.
 
 ---
 
-### TL-Verilog Code
-
-
-
----
-
-### TL-Verilog Implementation & Waveform Verification
+### TL-Verilog Code , Implementation & Waveform Verification
 
 <img width="1917" height="957" alt="lab solution" src="https://github.com/user-attachments/assets/11c05137-465a-422f-9b39-ee1529fac7a7" />
 
 ---
-## Tools Used\SV
-   m5_makerchip_module
-\TLV
 
-   $reset = *reset;
-
-   // Inputs
-   $in1[3:0] = $rand1[3:0];
-   $in2[3:0] = $rand2[3:0];
-   $sel[1:0] = $rand3[1:0];
-
-   // Arithmetic Logic
-   $sum[6:0]  = $in1 + $in2;
-   $diff[6:0] = $in1 - $in2;
-   $prod[6:0] = $in1 * $in2;
-   $quot[6:0] = ($in2 != 0) ? ($in1 / $in2) : 7'b0;
-
-   // MUX Logic
-   $op[6:0] = ($sel == 2'b00) ? $sum :
-              ($sel == 2'b01) ? $diff :
-              ($sel == 2'b10) ? $prod :
-                               $quot;
-
-   *passed = *cyc_cnt > 40;
-   *failed = 1'b0;
-
-\SV
-
-endmodule
-
+### Tools Used
 
 - Makerchip IDE  
 - TL-Verilog  
@@ -277,6 +243,7 @@ endmodule
 ## Conclusion
 
 These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers, and Vector arithmetic using the Makerchip simulation environment.
+
 
 
 
