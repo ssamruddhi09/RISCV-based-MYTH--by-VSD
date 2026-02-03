@@ -75,11 +75,20 @@ Provides pipeline visualization and design flow understanding.
 
 ---
 
+
 # Laboratory Experiments / Examples Performed
 
 <img width="1397" height="768" alt="Screenshot 2026-02-03 152941" src="https://github.com/user-attachments/assets/0256bd1b-b0d0-4322-b351-30769f5a5dd5" />
 
 ---
+### Beginner's Lab
+---
+<img width="1900" height="1063" alt="Screenshot 2026-02-03 154209" src="https://github.com/user-attachments/assets/e765445f-feb0-41f6-b9c9-de903234c9c9" />
+
+<img width="1919" height="1000" alt="sample lab solution" src="https://github.com/user-attachments/assets/728fb799-c7ef-4442-8fcd-71a6ff2cc224" />
+---
+
+
 ## Lab 1: Combinational Logic – Basic Gate Implementation
 
 ---
@@ -136,6 +145,7 @@ Operator: The ^ symbol represents the Boolean XOR operator.
 
 Description:
 The screenshot above shows the Makerchip IDE navigation menu. The “Examples” option is highlighted in red to indicate where users can access predefined Verilog/TL-Verilog example projects. This section is useful for exploring sample designs, learning syntax, and understanding how different components work in the Makerchip environment. Selecting Examples opens a list of ready-to-run projects that can be used for hands-on practice and experimentation.
+
 
 
 
