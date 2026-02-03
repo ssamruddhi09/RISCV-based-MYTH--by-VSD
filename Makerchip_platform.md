@@ -123,6 +123,7 @@ Operator: The ! symbol represents the Boolean NOT operator.
 
 <img width="1896" height="918" alt="inverter" src="https://github.com/user-attachments/assets/c178a940-c3e0-4311-9da6-e44c1e094bf8" />
 ---
+
 ### 3. OR Gate
 Logic: The output is 1 if at least one of the inputs is 1.
 
@@ -132,6 +133,7 @@ Operator: The || symbol represents the Boolean OR operator.
 
 <img width="1919" height="1003" alt="or" src="https://github.com/user-attachments/assets/3e5a2819-eb48-4c7f-98fa-7dcc021dab24" />
 ---
+
 ### 4. XOR Gate
 Logic: The output is 1 if the inputs are different (one is 1, the other is 0).
 
@@ -144,6 +146,7 @@ Operator: The ^ symbol represents the Boolean XOR operator.
 
 Description:
 The screenshot above shows the Makerchip IDE navigation menu. The “Examples” option is highlighted in red to indicate where users can access predefined Verilog/TL-Verilog example projects. This section is useful for exploring sample designs, learning syntax, and understanding how different components work in the Makerchip environment. Selecting Examples opens a list of ready-to-run projects that can be used for hands-on practice and experimentation.
+
 
 
 
