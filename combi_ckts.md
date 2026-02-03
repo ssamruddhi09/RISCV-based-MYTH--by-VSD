@@ -218,7 +218,16 @@ A multiplexer selects the final output based on the `sel` signal.
 
 ### TL-Verilog Code
 
-\SV
+
+
+---
+
+### TL-Verilog Implementation & Waveform Verification
+
+<img width="1917" height="957" alt="lab solution" src="https://github.com/user-attachments/assets/11c05137-465a-422f-9b39-ee1529fac7a7" />
+
+---
+## Tools Used\SV
    m5_makerchip_module
 \TLV
 
@@ -248,14 +257,6 @@ A multiplexer selects the final output based on the `sel` signal.
 
 endmodule
 
----
-
-### TL-Verilog Implementation & Waveform Verification
-
-<img width="1917" height="957" alt="lab solution" src="https://github.com/user-attachments/assets/11c05137-465a-422f-9b39-ee1529fac7a7" />
-
----
-## Tools Used
 
 - Makerchip IDE  
 - TL-Verilog  
@@ -276,6 +277,7 @@ endmodule
 ## Conclusion
 
 These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers, and Vector arithmetic using the Makerchip simulation environment.
+
 
 
 
