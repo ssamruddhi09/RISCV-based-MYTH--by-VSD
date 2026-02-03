@@ -80,6 +80,7 @@ Provides pipeline visualization and design flow understanding.
 <img width="1900" height="1063" alt="Screenshot 2026-02-03 154209" src="https://github.com/user-attachments/assets/e765445f-feb0-41f6-b9c9-de903234c9c9" />
 
 <img width="1919" height="1000" alt="sample lab solution" src="https://github.com/user-attachments/assets/728fb799-c7ef-4442-8fcd-71a6ff2cc224" />
+
 ---
 
 ### Laboratory Experiments / Examples Performed
@@ -95,6 +96,7 @@ Provides pipeline visualization and design flow understanding.
 ### Objective
 
 To design and simulate fundamental combinational logic gates using TL-Verilog in Makerchip IDE and analyze their behavior through waveform visualization.
+
 ---
 
 ### Introduction to Combinational Logic
@@ -112,6 +114,7 @@ TLV Code: $out = $in1 && $in2;
 Operator: The && symbol represents the Boolean AND operator.
 
 <img width="1917" height="978" alt="and" src="https://github.com/user-attachments/assets/d4201aee-5006-4f07-9b7b-da8d7b068e79" />
+
 ---
 
 ### 2. Inverter 
@@ -122,6 +125,7 @@ TLV Code: $out = ! $in1;
 Operator: The ! symbol represents the Boolean NOT operator.
 
 <img width="1896" height="918" alt="inverter" src="https://github.com/user-attachments/assets/c178a940-c3e0-4311-9da6-e44c1e094bf8" />
+
 ---
 
 ### 3. OR Gate
@@ -132,6 +136,7 @@ TLV Code: $out = $in1 || $in2;
 Operator: The || symbol represents the Boolean OR operator.
 
 <img width="1919" height="1003" alt="or" src="https://github.com/user-attachments/assets/3e5a2819-eb48-4c7f-98fa-7dcc021dab24" />
+
 ---
 
 ### 4. XOR Gate
@@ -142,10 +147,12 @@ TLV Code: $out = $in1 ^ $in2;
 Operator: The ^ symbol represents the Boolean XOR operator.
 
 <img width="1910" height="978" alt="xor" src="https://github.com/user-attachments/assets/89a830ba-e30c-4bd2-b12e-7989bef02e13" />
+
 ---
 
 Description:
 The screenshot above shows the Makerchip IDE navigation menu. The “Examples” option is highlighted in red to indicate where users can access predefined Verilog/TL-Verilog example projects. This section is useful for exploring sample designs, learning syntax, and understanding how different components work in the Makerchip environment. Selecting Examples opens a list of ready-to-run projects that can be used for hands-on practice and experimentation.
+
 
 
 
