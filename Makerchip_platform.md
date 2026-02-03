@@ -77,17 +77,47 @@ Provides pipeline visualization and design flow understanding.
 
 # Laboratory Experiments / Examples Performed
 
+<img width="1397" height="768" alt="Screenshot 2026-02-03 152941" src="https://github.com/user-attachments/assets/0256bd1b-b0d0-4322-b351-30769f5a5dd5" />
+
+---
+## Lab 1: Combinational Logic – Basic Gate Implementation
+
 ---
 
-## Lab 1: (Enter Lab Title Here)
-
 ### Objective
-Describe what this lab demonstrates.
 
-### Description
-Explain the logic or concept implemented in this lab.
+To design and simulate fundamental combinational logic gates using TL-Verilog in Makerchip IDE and analyze their behavior through waveform visualization.
 
-### TL-Verilog Code
-```verilog
-// Paste your code here
+---
+
+### Lab Platform Screenshot
+
+![Combinational Logic Lab](ADD_YOUR_LAB_SCREENSHOT_PATH)
+
+---
+
+## Introduction to Combinational Logic
+
+Combinational logic circuits generate outputs based solely on present input values. These circuits do not contain memory elements and do not depend on clock signals.
+
+In this lab, basic logic gates were implemented using TL-Verilog to understand their functionality and simulation behavior in Makerchip.
+
+---
+### 1. AND Gate
+<img width="1917" height="978" alt="and" src="https://github.com/user-attachments/assets/d4201aee-5006-4f07-9b7b-da8d7b068e79" />
+### 2. Inverter 
+<img width="1896" height="918" alt="inverter" src="https://github.com/user-attachments/assets/c178a940-c3e0-4311-9da6-e44c1e094bf8" />
+### 3. OR Gate
+<img width="1919" height="1003" alt="or" src="https://github.com/user-attachments/assets/3e5a2819-eb48-4c7f-98fa-7dcc021dab24" />
+### 4. XOR Gate
+<img width="1910" height="978" alt="xor" src="https://github.com/user-attachments/assets/89a830ba-e30c-4bd2-b12e-7989bef02e13" />
+
+Description:
+The screenshot above shows the Makerchip IDE navigation menu. The “Examples” option is highlighted in red to indicate where users can access predefined Verilog/TL-Verilog example projects. This section is useful for exploring sample designs, learning syntax, and understanding how different components work in the Makerchip environment. Selecting Examples opens a list of ready-to-run projects that can be used for hands-on practice and experimentation.
+
+
+
+
+
+
 
