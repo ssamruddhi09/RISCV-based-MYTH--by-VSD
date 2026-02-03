@@ -57,15 +57,20 @@ Makerchip provides several advantages compared to traditional RTL simulation env
 The Makerchip interface mainly consists of:
 
 ### Code Editor
+
 Used for writing TL-Verilog design and simulation code.
+![editor](https://github.com/user-attachments/assets/e874884a-c72b-4cc6-99f9-89628609be1a)
 
 ### Output Window
 Displays simulation results and debug messages.
 
 ### Waveform Viewer
 Shows graphical representation of signal changes.
+![wavefrom](https://github.com/user-attachments/assets/ed8f5d98-81f6-4cef-90d2-69482f1bfce5)
 
 ### Diagram View
+![diagram](https://github.com/user-attachments/assets/7461989c-a76b-47ec-8ec5-e1e9bfd75b78)
+
 Provides pipeline visualization and design flow understanding.
 
 ---
@@ -85,3 +90,4 @@ Explain the logic or concept implemented in this lab.
 ### TL-Verilog Code
 ```verilog
 // Paste your code here
+
