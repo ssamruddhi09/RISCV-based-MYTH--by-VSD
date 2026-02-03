@@ -242,7 +242,8 @@ A multiplexer selects the final output based on the `sel` signal.
 
 ## Conclusion
 
-These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers, and Vector arithmetic using the Makerchip simulation environment.
+These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers,Combinational Calculator and Vector arithmetic using the Makerchip simulation environment.
+
 
 
 
