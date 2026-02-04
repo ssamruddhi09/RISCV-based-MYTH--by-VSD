@@ -158,7 +158,71 @@ This produces a 5-bit output from two 4-bit inputs.
 
 ---
 
-## Tools Used
+### Lab : Combinational Calculator
+
+<img width="1762" height="1050" alt="lab" src="https://github.com/user-attachments/assets/4e7951e9-a2a5-4889-b94e-85eb0f6c9923" />
+
+design and simulate a combinational calculator capable of performing:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+The operation is selected using a 2-bit control signal.
+
+---
+
+### Design Description
+
+###  Input Signals
+| Signal | Width | Description |
+|----------|------------|----------------|
+| `in1` | 4-bit | First operand |
+| `in2` | 4-bit | Second operand |
+| `sel` | 2-bit | Operation selector |
+
+Random inputs are generated using Makerchip simulation functions.
+
+---
+
+###  Operation Selection Table
+
+| sel | Operation |
+|----------|--------------|
+| 00 | Addition |
+| 01 | Subtraction |
+| 10 | Multiplication |
+| 11 | Division |
+
+---
+
+###  Arithmetic Logic
+
+The circuit contains four arithmetic blocks that operate in parallel:
+
+- Adder
+- Subtractor
+- Multiplier
+- Divider
+
+Division includes protection against divide-by-zero errors.
+
+---
+
+###  Multiplexer (MUX)
+
+A multiplexer selects the final output based on the `sel` signal.
+
+---
+
+### TL-Verilog Implementation in Makerchip &  Waveform Verification
+
+<img width="1917" height="957" alt="lab solution" src="https://github.com/user-attachments/assets/11c05137-465a-422f-9b39-ee1529fac7a7" />
+
+---
+
+### Tools Used
 
 - Makerchip IDE  
 - TL-Verilog  
@@ -172,13 +236,19 @@ This produces a 5-bit output from two 4-bit inputs.
 - Understanding combinational circuit design  
 - Implementation of logic using TL-Verilog  
 - Simulation-based verification of circuits  
-- Performing arithmetic operations using vectors  
+- Performing arithmetic operations using vectors
 
 ---
 
 ## Conclusion
 
-These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers, and Vector arithmetic using the Makerchip simulation environment.
+These labs demonstrate implementation and verification of fundamental combinational circuits including Full Adders, Multiplexers,Combinational Calculator and Vector arithmetic using the Makerchip simulation environment.
+
+
+
+
+
+
 
 
 
