@@ -28,7 +28,7 @@ RISC-V uses general-purpose registers for computation and data transfer.
 
 ---
 
-## RISC-V Instruction Formats <img width="1818" height="1113" alt="3" src="https://github.com/user-attachments/assets/294469b3-9537-4804-a568-bb18ef40c436" />
+## RISC-V Instruction Formats 
 
 
 RISC-V instructions follow standard formats that define how operands and operations are encoded.
@@ -71,3 +71,4 @@ RISC-V defines 32 registers (x0 – x31) with specific roles.
 - ABI connects software and hardware  
 - Defines register roles and calling conventions  
 - Helps in instruction execution and memory interaction  
+
