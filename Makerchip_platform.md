@@ -124,7 +124,8 @@ TLV Code: $out = ! $in1;
 
 Operator: The ! symbol represents the Boolean NOT operator.
 
-<img width="1896" height="918" alt="inverter" src="https://github.com/user-attachments/assets/c178a940-c3e0-4311-9da6-e44c1e094bf8" />
+<img width="1919" height="978" alt="Screenshot 2026-02-04 154103" src="https://github.com/user-attachments/assets/72d62bf8-8ff1-40f7-b9e2-b487f1735e68" />
+
 
 ---
 
@@ -152,6 +153,7 @@ Operator: The ^ symbol represents the Boolean XOR operator.
 
 Description:
 The screenshot above shows the Makerchip IDE navigation menu. The “Examples” option is highlighted in red to indicate where users can access predefined Verilog/TL-Verilog example projects. This section is useful for exploring sample designs, learning syntax, and understanding how different components work in the Makerchip environment. Selecting Examples opens a list of ready-to-run projects that can be used for hands-on practice and experimentation.
+
 
 
 
